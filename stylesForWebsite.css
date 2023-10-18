@@ -1,0 +1,78 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.body-page {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+#help {
+    padding-left: 20px;
+}
+.header, #main-page {
+    background-color: #061c14;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.header {
+    padding-top: 0.2px;
+    padding-bottom: 40px;
+}
+#abMe, #conIn {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#main-page {
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: larger;
+    margin-left: 5px;
+    color: #b1c7b2;
+}
+h3, #make-bigger1, #make-bigger2, #make-bigger3 {
+    font-size: larger;
+}
+h4 {
+    font-size: medium;
+    margin-left: 5px;
+}
+p {
+    font-size: 14px;
+    margin: 10px;
+}
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #798f7a;
+    /* #798f7a */
+    color: #061c14;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;  
+}
+#button-collection {
+    padding-top: 10px;
+    text-align: center;
+}
