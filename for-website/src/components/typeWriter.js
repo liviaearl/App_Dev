@@ -1,4 +1,5 @@
 import React from 'react';
+import './typeWriter.css';
 const typedTextSpan = document.querySelector("#name");
 const cursorSpan = document.querySelector(".cursor");
 

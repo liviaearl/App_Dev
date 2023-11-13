@@ -1,8 +1,9 @@
 import React from 'react';
+import './endPage.css';
 
 function Container() {
   return (
-    <div className="container">
+    <div className="body-page">
         <hr/>
         <h3>Coding Languages</h3>
         <p>

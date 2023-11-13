@@ -1,0 +1,58 @@
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #798f7a;
+    /* #798f7a */
+    color: #061c14;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;  
+}
+h3, #make-bigger1, #make-bigger2, #make-bigger3 {
+    font-size: larger;
+}
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.body-page {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+.header, #main-page {
+    background-color: #061c14;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.header {
+    padding-top: 0.2px;
+    padding-bottom: 40px;
+}
+#abMe {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+p {
+    font-size: 14px;
+    margin: 10px;
+}

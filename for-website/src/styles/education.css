@@ -1,0 +1,21 @@
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.body-page {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+h4 {
+    font-size: medium;
+    margin-left: 5px;
+}
+p {
+    font-size: 14px;
+    margin: 10px;
+}
