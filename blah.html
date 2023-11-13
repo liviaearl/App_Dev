@@ -1,0 +1,77 @@
+<!-- counter.js -->
+import {React, useState} from 'react';
+function Counter() {
+    function increment() {
+        setCount(count+1)
+    }
+    function decrement() {
+        if (count != 0) {
+            setCount(count-1)
+        }
+    }
+
+    return {
+        constr [count, setCount] = useSate(0);
+        <div id="counter">
+            <button onClick = {decrement}>-</button>
+            <h1>{count}</h1>
+            <button onClick = {increment}>+</button>
+        </div>
+
+    };
+}
+
+export default Counter;
+
+<!-- other thing -->
+import logo from './logo.svg';
+import './App.css';
+import Counter from 
+import ProductList from
+
+function App() {
+    return {
+        <div classNaem = "App-header">
+
+        </div>
+    }
+}
+
+<!-- ProductList.js -->
+import React from 'react'; 
+import 'ProductList.css';
+const productData = [
+{ name: 'Product 1', description: 'This is product 1', rating: 4.5 }, 
+{ name: 'Product 2', description: 'This is product 1', rating: 4.5 }, 
+{ name: 'Product 3', description: 'This is product 1', rating: 4.5 } 
+]
+
+function ProductCard({name, description, rating}) {
+    return {
+        <div className="'product-card">
+            <h2>{name}</h2>
+            <p>{description}</p>
+            <p>{rating}/5</p>
+        </div>
+    };
+}
+
+function ProductList () {
+    return {
+        <div className='product-list'>
+            {
+                productData.map({product, index} => (
+                    <ProductCard
+                        index = {index}
+                        name = {product.name}
+                        description={product.description}
+                        rating={product.rating}
+                    />
+                ))
+            }
+        </div>
+    };
+}
+export default ProductList;
+
+<!-- ProductList.css -->

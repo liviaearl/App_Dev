@@ -82,7 +82,7 @@ button {
     animation: blink 0.7s infinite;
   }
   
-  @keyframes blink {
+@keyframes blink {
     0% { opacity: 1; }
     100% { opacity: 0; }
-  }
+}
