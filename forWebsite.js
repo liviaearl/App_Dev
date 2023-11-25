@@ -45,4 +45,4 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 
 const delay = (delayInms) => {
     return new Promise(resolve => setTimeout(resolve, delayInms));
-  };
+};
