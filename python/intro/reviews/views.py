@@ -10,5 +10,7 @@ class AppDevClubReviewsView(APIView):
             'you should join'
         ]
         return Response({'reviews': reviews})
-    def post(self, str1):
+    
+class CreateAppDevClubReview(APIView):
+    def post(self, request):
         get().append(str1)
